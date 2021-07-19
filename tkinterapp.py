@@ -14,7 +14,7 @@ window.resizable(width=False, height=False)
 window.attributes('-alpha',0.9)
 
 # Set Icon
-img = tk.Image("photo", file="/Users/jerraillmurphy/Desktop/MyProjects/ProgrammingWithTkinter/icons8-temperature-26.png")
+img = tk.Image("photo", file="icons8-temperature-26.png")
 window.tk.call('wm','iconphoto', window._w, img)
 
 # Create and label the Fahrenheit entry widget 
